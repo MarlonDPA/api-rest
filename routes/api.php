@@ -7,7 +7,7 @@ use App\Http\Controllers\Api\InventoryController;
 use App\Http\Controllers\Api\SaleController;
 use App\Http\Controllers\Api\ReportController;
 
-// Caso deseje conferir só os produtos, descomente e use o endpoint
+// Caso deseje conferir só os produtos, descomente e use o endpoint.
 // Route::get('/product', [ProductController::class, 'index']);
 
 Route::prefix('inventory')->group(function () {
