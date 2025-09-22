@@ -74,3 +74,5 @@ php artisan test --testsuite=Unit
 
 Obs: Para limpar resgitros com mais de 90 dias, foi implementado no laravel na pasta de commands o arquivo 
 CleanOldInventory,  mas recomendaria efetuar a limpeza direto dentro no banco usando o cron job interno.
+
+Para a otimizacäo do produto já usamos o processo de filas e requisiçöes assinconas, espero explanar mais na apresentaçäo 
